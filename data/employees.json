@@ -1,0 +1,32 @@
+[
+  {
+    "employee_id": "E001",
+    "name": "Priya Raman",
+    "role": "employee",
+    "leave_balance": 14
+  },
+  {
+    "employee_id": "E002",
+    "name": "Arjun Mehta",
+    "role": "employee",
+    "leave_balance": 22.5
+  },
+  {
+    "employee_id": "E003",
+    "name": "Sana Iqbal",
+    "role": "employee",
+    "leave_balance": 7
+  },
+  {
+    "employee_id": "E004",
+    "name": "Dev Kulkarni",
+    "role": "employee",
+    "leave_balance": 18
+  },
+  {
+    "employee_id": "E005",
+    "name": "Meera Nair",
+    "role": "hr",
+    "leave_balance": 11.5
+  }
+]

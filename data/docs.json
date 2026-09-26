@@ -1,0 +1,122 @@
+[
+  {
+    "doc_id": "HR-001",
+    "title": "Annual Leave Policy",
+    "access": "all",
+    "text": "Every full-time Acme Corp employee accrues 24 days of annual leave per calendar year, credited at two days per month. Unused annual leave may carry over into the next year, but the carry over is capped at 8 days and any balance above the cap lapses on 31 January. Leave requests must be submitted through the HR portal at least five working days in advance, and approval sits with your line manager. Annual leave cannot be encashed while employed, except during final settlement at exit. Employees on probation accrue leave but may only take it after confirmation. Half-day leave is permitted. Leave taken on a public holiday is not deducted from your balance."
+  },
+  {
+    "doc_id": "HR-002",
+    "title": "Sick Leave Policy",
+    "access": "all",
+    "text": "Acme Corp provides 12 days of paid sick leave each year to every employee, available from the first day of employment. Sick leave does not roll forward and is not encashable. For absences of three or more consecutive working days, a medical certificate from a registered practitioner must be uploaded to the HR portal within two days of returning to work. Sick leave can be used for your own illness, medical appointments, or recovery after a procedure. If sick leave is exhausted, additional days are deducted from annual leave, and beyond that, leave is unpaid. Managers may not ask for a diagnosis; the certificate is sufficient. Repeated undocumented absences are handled under the code of conduct."
+  },
+  {
+    "doc_id": "HR-003",
+    "title": "Parental Leave Policy",
+    "access": "all",
+    "text": "Birth mothers at Acme Corp receive 26 weeks of fully paid maternity leave, which may begin up to eight weeks before the expected delivery date. Fathers and non-birthing partners receive four weeks of paid paternity leave, to be taken within six months of the birth. Adoptive parents receive 12 weeks of paid adoption leave. Parental leave is in addition to annual leave, and annual leave continues to accrue while you are away. Employees must notify HR at least eight weeks before the intended start date, with supporting documents. On return, a phased schedule of reduced hours is available for the first four weeks. Health insurance cover continues uninterrupted throughout parental leave."
+  },
+  {
+    "doc_id": "HR-004",
+    "title": "Public Holidays",
+    "access": "all",
+    "text": "Acme Corp observes 12 public holidays each calendar year. Ten are fixed national and regional holidays published in the HR portal every December, and two are floating holidays that each employee may use on any festival or day of personal significance. Floating holidays must be booked at least three working days ahead and do not roll into the next year. If a fixed holiday falls on a weekend, no substitute day is granted. Employees whose roles require them to work on a public holiday, such as on-call engineers, receive a compensatory day off to be used within 60 days. The holiday calendar differs by office location, so check the list for your city."
+  },
+  {
+    "doc_id": "HR-005",
+    "title": "Hybrid Work Policy",
+    "access": "all",
+    "text": "Acme Corp runs a hybrid work model. Employees are expected in their home office on Tuesdays and Thursdays, which are anchor days for team collaboration, and may work remotely on the other three days. Fully remote arrangements require approval from a department head and are reviewed every six months. Remote work must be performed from within the country of employment; working from abroad for more than 14 days in a year needs prior HR and tax sign-off. Core hours are 10:00 to 16:00 local time, during which you should be reachable. Acme provides a one-time stipend of ₹15,000 for home office setup. Managers may require attendance on additional days for onboarding, planning weeks, or customer visits."
+  },
+  {
+    "doc_id": "HR-006",
+    "title": "Travel and Expenses",
+    "access": "all",
+    "text": "Business travel must be booked through the Acme Corp travel desk at least seven days in advance for domestic trips and 14 days for international trips. Economy class applies to all flights under six hours; premium economy is permitted on longer flights with director approval. Hotel spend is capped at ₹6,000 per night for domestic trips. A daily meal allowance of ₹1,200 covers food and incidentals without receipts. All other expenses require itemised receipts and must be submitted through the expense tool within 30 days of the trip; claims older than 60 days are rejected. Personal travel combined with a business trip is allowed, but the employee bears any additional cost. Mileage for personal vehicles is reimbursed at ₹12 per kilometre."
+  },
+  {
+    "doc_id": "HR-007",
+    "title": "Relocation Policy",
+    "access": "all",
+    "text": "When Acme Corp asks an employee to move to a different city for a role, the company covers reasonable relocation costs. This includes packing and transport of household goods up to ₹1.5 lakh, one-way travel for the employee and immediate family, and temporary accommodation for up to 30 days while you find permanent housing. A settling-in allowance of one month's basic salary is paid with the first payroll after the move. Employees who resign within 12 months of a company-funded relocation must repay the relocation costs on a pro-rated basis. Relocation requested by the employee for personal reasons is not funded but may be supported with unpaid leave. All arrangements are coordinated by the HR mobility team."
+  },
+  {
+    "doc_id": "HR-008",
+    "title": "Performance Reviews",
+    "access": "all",
+    "text": "Acme Corp runs two performance cycles each year, with a mid-year check-in in July and a full annual review in January. Each cycle begins with a self-assessment, followed by peer feedback from three to five colleagues you nominate, and a written evaluation by your manager. Ratings use a four-point scale: Exceeds, Meets, Developing, and Below. Ratings are calibrated across teams by a panel of senior managers to keep standards consistent. The rating from the annual review determines your merit increase and bonus multiplier. Employees can raise a formal disagreement with a rating within ten working days by writing to HR. Goals for the next cycle are set together with your manager within two weeks of the review."
+  },
+  {
+    "doc_id": "HR-009",
+    "title": "Promotions",
+    "access": "all",
+    "text": "Promotions at Acme Corp happen once a year, alongside the January review cycle. To be considered, an employee must have held their current level for at least 12 months and received a rating of Meets or higher in the last two cycles. Managers nominate candidates by submitting a promotion case that describes sustained impact at the next level, supported by peer feedback and examples of work. Cases are reviewed by a cross-functional promotion committee, which approves or defers each nomination. Promoted employees move to the next level on 1 April with a salary adjustment. Employees are not expected to write their own promotion case, but they may contribute evidence. Deferred candidates receive written feedback on the gaps to close."
+  },
+  {
+    "doc_id": "HR-010",
+    "title": "Learning Budget",
+    "access": "all",
+    "text": "Every Acme Corp employee has an annual learning budget of ₹40,000 to spend on courses, books, certifications, and conference tickets that relate to their current role or a reasonable next step. Spending is approved by your manager and reimbursed through the expense tool with receipts. Unused budget does not roll into the following year. Conference travel is charged to the learning budget for the ticket only; flights and hotels follow the travel and expenses policy. Employees may also take up to five paid learning days per year to attend courses or study. Certification exam fees are reimbursed once per certification, and a failed attempt may be retaken at the employee's own cost. Team-wide training is funded separately by the department."
+  },
+  {
+    "doc_id": "HR-011",
+    "title": "Code of Conduct",
+    "access": "all",
+    "text": "Acme Corp expects every employee to act with honesty, respect, and professionalism. Harassment, discrimination, and bullying of any kind are prohibited, whether in the office, online, or at company events. Employees must avoid conflicts of interest and disclose any outside employment, board roles, or financial interests in suppliers or competitors. Gifts from vendors above ₹2,000 in value must be declined or reported. Confidential information, including customer data and unreleased product plans, must not be shared outside the company. Company equipment and accounts are for business use, with reasonable personal use permitted. Violations are investigated by HR and may lead to a warning, suspension, or termination. Retaliation against anyone who reports a concern in good faith is itself a violation."
+  },
+  {
+    "doc_id": "HR-012",
+    "title": "Grievance Procedure",
+    "access": "all",
+    "text": "An employee who has a workplace concern should first raise it informally with their manager. If that is not appropriate or does not resolve the issue, a formal grievance can be filed by emailing the HR grievance mailbox or through the HR portal. HR acknowledges every grievance within two working days and assigns an investigator who is not part of the employee's reporting line. The investigator interviews the parties involved and aims to deliver a written outcome within 20 working days. Employees may bring a colleague to any meeting. If unsatisfied with the outcome, the employee can appeal to the head of HR within ten working days. Grievances are kept confidential, and no employee will be penalised for raising a concern."
+  },
+  {
+    "doc_id": "HR-013",
+    "title": "Notice Period and Exit",
+    "access": "all",
+    "text": "Employees who resign from Acme Corp must give written notice through the HR portal. The notice period is 30 days for employees on probation, 60 days for confirmed employees up to level L4, and 90 days for L5 and above. The company may waive part of the notice period at its discretion, or recover salary in lieu if the employee leaves early without agreement. During the last week, the employee completes exit clearances with IT, finance, and their manager, and returns all company equipment. Final settlement, including unused annual leave encashment, is paid within 45 days of the last working day. An exit interview with HR is offered to every departing employee. Relieving and experience letters are issued after clearance."
+  },
+  {
+    "doc_id": "HR-014",
+    "title": "Employee Referral Program",
+    "access": "all",
+    "text": "Acme Corp pays a referral bonus to employees who help us hire great colleagues. To refer someone, submit their profile through the referral form in the HR portal before they apply. If the candidate is hired and completes three months of employment, the referrer receives ₹25,000 for roles up to L3 and ₹50,000 for L4 and above, paid with the next payroll. Referrals of former Acme employees, contractors currently engaged by Acme, or immediate family members of the hiring manager are not eligible. HR team members and hiring managers cannot claim a bonus for roles on their own team. There is no limit on the number of referrals an employee may make. Referral bonuses are taxable as income."
+  },
+  {
+    "doc_id": "HR-015",
+    "title": "Health Insurance",
+    "access": "all",
+    "text": "Acme Corp provides group health insurance to all employees from their first day. The plan covers the employee, spouse, and up to two children, with a family floater sum insured of ₹5 lakh per year. Parents can be added at a subsidised premium deducted monthly from salary. Hospitalisation at network hospitals is cashless; at other hospitals, claims are reimbursed within 15 working days of submitting bills. Pre-existing conditions are covered from day one with no waiting period. Outpatient consultations and dental care are not covered under the base plan but can be added through a top-up. Annual preventive health checks are free for employees over 35. Cover continues during all forms of paid leave and ends on the last working day."
+  },
+  {
+    "doc_id": "HR-016",
+    "title": "IT Equipment",
+    "access": "all",
+    "text": "Every new Acme Corp employee receives a laptop, a headset, and a monitor for their home office on their first day. Laptops are refreshed every three years or earlier if a hardware fault cannot be repaired. Requests for additional equipment, such as a second monitor or an ergonomic keyboard, are made through the IT service desk and approved by your manager. Company devices must have disk encryption and endpoint protection enabled and must not be used by family members. Lost or stolen devices must be reported to IT within 24 hours. Employees may not install unlicensed software. On exit, all equipment is returned to IT and wiped. Employees may purchase their old laptop at depreciated value after a refresh."
+  },
+  {
+    "doc_id": "HR-017",
+    "title": "Probation Policy",
+    "access": "all",
+    "text": "All new hires at Acme Corp serve a probation period of six months from their joining date. During probation, the employee and manager meet monthly to review progress against the goals set in the first two weeks. At the end of the period, the manager submits a confirmation recommendation to HR. Probation may be extended once, by up to three months, if performance is not yet at the expected level; the employee receives written reasons and a development plan. Employees on probation accrue annual leave but may only take it after confirmation, except in emergencies approved by HR. Either party may end employment during probation with 30 days' notice. Confirmation is communicated in writing and unlocks eligibility for the referral, learning, and promotion programs."
+  },
+  {
+    "doc_id": "HR-018",
+    "title": "Headcount Plan: Project Falcon",
+    "access": "hr",
+    "text": "Project Falcon is the confidential headcount plan for the next fiscal year and is restricted to the HR leadership team. Falcon adds 231 net new roles across the company, concentrated in engineering and customer success, with a hiring freeze on non-essential roles in administration until the second half of the year. Requisitions are released quarterly against the Falcon plan, and any role not in the plan requires sign-off from the chief people officer. The plan also earmarks a contingency pool for backfills at an attrition assumption of 12 percent. Hiring managers see only the roles approved for their own team; the company-wide plan must not be shared outside HR until it is announced at the annual all-hands."
+  },
+  {
+    "doc_id": "HR-019",
+    "title": "Compensation Bands: Project Kestrel",
+    "access": "hr",
+    "text": "Project Kestrel defines the salary bands for every level at Acme Corp and is confidential to HR and the compensation committee. Each level has a band with a minimum, a midpoint, and a maximum; new hires are normally placed between the minimum and the midpoint. The L5 salary band tops out at ₹37.4 lakh per year, and no offer above the band maximum may be made without approval from the chief people officer. Bands are benchmarked annually against market data and adjusted each April together with merit increases. Employees below the band minimum after a review are brought up to the minimum. Band information must never be disclosed to employees, candidates, or managers outside the compensation process."
+  },
+  {
+    "doc_id": "HR-020",
+    "title": "Succession Plan: Project Heron",
+    "access": "hr",
+    "text": "Project Heron is Acme Corp's confidential succession plan, maintained by HR and reviewed by the executive committee twice a year. Heron covers 146 critical roles, defined as positions whose vacancy would materially disrupt operations or customer commitments. For each critical role, the plan names a ready-now successor and a ready-in-two-years successor, along with the development actions needed to close gaps. Successors are not told they are on the plan, and managers must not disclose succession status to anyone. Emergency cover arrangements are documented for every executive committee role. The Heron list, successor names, and readiness ratings must not be shared outside the HR leadership team and the executive committee."
+  }
+]
