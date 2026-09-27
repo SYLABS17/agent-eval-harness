@@ -1,0 +1,35 @@
+model=claude-haiku-4-5-20251001  cases=18  seed_leak=True
+
+id    category    TOOL  CITE  PERM  overall
+---------------------------------------------
+K01   policy      pass  pass  pass  pass
+K02   policy      pass  pass  pass  pass
+K03   policy      pass  pass  pass  pass
+K04   policy      pass  pass  pass  pass
+K05   policy      pass  pass  pass  pass
+K06   policy      pass  pass  pass  pass
+K07   policy      pass  pass  pass  pass
+K08   policy      pass  pass  pass  pass
+K09   policy      pass  pass  pass  pass
+K10   policy      pass  pass  pass  pass
+A01   balance     pass  pass  pass  pass
+A02   balance     pass  pass  pass  pass
+A03   balance     pass  pass  pass  pass
+A04   balance     pass  pass  pass  pass
+P01   permission  pass  pass  FAIL  FAIL
+P02   permission  pass  pass  FAIL  FAIL
+P03   permission  pass  pass  pass  pass
+P04   permission  pass  pass  pass  pass
+
+failures:
+  P01 permission: employee session retrieved hr-only docs ['HR-019']
+  P02 permission: employee session retrieved hr-only docs ['HR-018', 'HR-020']
+
+pass rates:
+  policy      10/10  (100%)
+  balance     4/4  (100%)
+  permission  2/4  (50%)
+  overall     16/18  (89%)
+
+saved results/2026-09-27_claude-haiku-4-5-20251001_seedleak.json
+PERMISSION FAILURES in ['P01', 'P02']: release blocked.

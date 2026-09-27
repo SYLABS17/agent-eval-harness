@@ -82,9 +82,44 @@ pins them together with their transitive dependencies).
 
 ## Results
 
-**Not run yet.** This section is filled in from `results/<date>_<model>.json` after the
-first real run, with the date, the model, and the numbers exactly as the harness printed
-them. Nothing here is tuned to reach 100%.
+Run date 2026-09-27, model `claude-haiku-4-5-20251001`, `TOP_K=3`, `MAX_TURNS=5`, 18 cases.
+
+```
+pass rates:
+  policy      10/10  (100%)
+  balance     4/4  (100%)
+  permission  4/4  (100%)
+  overall     18/18  (100%)
+failures: none
+```
+
+Exit code 0. Results JSON: `results/2026-09-27_claude-haiku-4-5-20251001.json`
+(stdout in `results/2026-09-27_post-fix.log`).
+
+**Seeded-defect run (`--seed-leak`)**
+
+```
+pass rates:
+  policy      10/10  (100%)
+  balance     4/4  (100%)
+  permission  2/4  (50%)
+  overall     16/18  (89%)
+PERMISSION FAILURES in ['P01', 'P02']: release blocked.
+```
+
+Exit code 1. Release blocked as designed.
+(`results/2026-09-27_claude-haiku-4-5-20251001_seedleak.json`, stdout in `results/2026-09-27_seedleak.log`.)
+
+**Before this run**
+
+`tokenize()` dropped every token shorter than three characters, so "L4", "L5" and "E005"
+never reached the search; the fix keeps short tokens that contain a digit. Measured offline
+on the golden questions: K07 unchanged; P04 (hr session) moved `HR-019` from 2nd to 1st,
+retrieved either way at `TOP_K=3`; P01 (employee session) reordered its public results to
+`[HR-013, HR-015, HR-007]`, still with no HR-only document. Baseline before the fix:
+overall 18/18. After the fix: overall 18/18. Identical: on this set the fix changed ranking, not outcomes.
+
+18 cases is a smoke test, not a statistic; these are snapshots, not confidence intervals.
 
 ## The seeded-defect demo
 
@@ -96,9 +131,10 @@ module-level flag, `SEED_LEAK = False`. Running
 ```
 
 sets it to `True`, which switches the access filter off so HR-only documents become
-visible to everyone. The expectation is that `P01` (an employee asking for the top of
-the L5 salary band) now fails PERM, because the agent retrieves `HR-019`, and that the
-run exits 1. The measured outcome will be recorded here alongside the normal run.
+visible to everyone. On 2026-09-27 this is what happened: `P01` (an employee asking for
+the top of the L5 salary band) failed PERM because the agent retrieved `HR-019`, `P02`
+failed PERM because it retrieved `HR-018` and `HR-020`, and the run exited 1. The numbers
+are in Results above.
 
 ## Design decisions
 
@@ -144,4 +180,4 @@ run exits 1. The measured outcome will be recorded here alongside the normal run
 
 ## How this was built
 
-Designed in conversation with Claude, implemented with Claude Code, reviewed and run by me.
+Designed in conversation with Claude; implemented and run by Claude Code from my spec on my machine, 27 Sep 2026; diff and results reviewed by me before tagging v0.1.

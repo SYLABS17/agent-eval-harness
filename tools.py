@@ -38,9 +38,10 @@ STOPWORDS = {
 
 
 def tokenize(text):
-    """Lowercase words, dropping anything under 3 letters and common stopwords."""
+    """Lowercase words, dropping common stopwords and anything under 3 characters,
+    unless the short token contains a digit (so "L4", "L5" and "E005" survive)."""
     words = re.findall(r"[a-z0-9]+", text.lower())
-    return {w for w in words if len(w) >= 3 and w not in STOPWORDS}
+    return {w for w in words if (len(w) >= 3 or any(ch.isdigit() for ch in w)) and w not in STOPWORDS}
 
 
 def search_policies(query, session):
